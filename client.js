@@ -26,7 +26,7 @@ async function fetchLink(url) {
 
     params.append("url", url);
 
-    const response  = await fetch("https://track.timothedavid.fr?" + params.toString(), {
+    const response  = await fetch("https://api.track.eclatia.com?" + params.toString(), {
         method: "POST",
         headers: {
                 'accept': 'application/json',
