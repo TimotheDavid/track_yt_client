@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="buymeacoffe">
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="timothe" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+    </div>
+    
+    <div class=" w-screen h-screen">
+        
+        <div class="p-5">
+            <h1 class="text-5xl">Track timeframe of youtube video</h1>
+            <p class="text-xl w-1/2 p-3">track friends video by giving a simple link, give us your youtube video we give the correct timeframe for your friends</p>
+        </div>
+
+        <div class="w-1/2 m-auto flex ">
+            <input type="text" id="inputLink" class="w-full h-10 p-3 rounded-sm" placeholder="Enter youtube video link: https://....?t=360">
+            <button class="w-1/4 h-10 bg-blue-500 text-white rounded-sm mx-2" id="buttonGetLink">Track</button>
+        </div>
+
+
+        <div class="w-1/2 m-auto my-10" id="links">
+            <h1 class="text-2xl">Link</h1>
+            <h1>it's already copied to your clipboard</h1>
+            <p id="link-item"></p>
+        </div>
+
+    </div>
+    
+</body>
+
+<script src="client.js"></script>
+</html>
